@@ -2,4 +2,6 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+def move(board, location, current_player = "X")
+  board[location.to_i-1] = current_player
+end# Code your CLI Here
